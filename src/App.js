@@ -33,7 +33,7 @@ function App() {
     };
 
     await fetch(API + '/todos',{
-      method: 'POST',
+      method: 'GET',
       body: JSON.stringify(todo),
       headers: {
         'Content-Type': 'application/json',
