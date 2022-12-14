@@ -2,7 +2,8 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import {BsTrash, BsBookmarkCheck, BsBookmarkCheckFill} from 'react-icons/bs';
 
-const API = 'http://localhost:5000'
+/*const API = 'http://localhost:5000'*/
+const API = 'https://biscoito132433.netlify.app/:5000'
 
 function App() {
   const [title, setTitle] = useState('');
